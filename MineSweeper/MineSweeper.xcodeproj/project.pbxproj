@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E74ED6221B1AC2D0029255E /* ResourcePath.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8E74ED6121B1AC2D0029255E /* ResourcePath.mm */; };
+		8E74ED6521B1AC2D0029255E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E74ED6421B1AC2D0029255E /* main.cpp */; };
+		8E74ED6821B1AC2D0029255E /* cute_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8E74ED6721B1AC2D0029255E /* cute_image.jpg */; };
+		8E74ED6A21B1AC2D0029255E /* nice_music.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 8E74ED6921B1AC2D0029255E /* nice_music.ogg */; };
+		8E74ED6C21B1AC2D0029255E /* sansation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E74ED6B21B1AC2D0029255E /* sansation.ttf */; };
+		8E74ED6E21B1AC2E0029255E /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E74ED6D21B1AC2E0029255E /* icon.png */; };
+		8E91BEC021B1B81F0092B87D /* test_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E91BEAD21B1B81E0092B87D /* test_1.png */; };
+		8E91BEC121B1B81F0092B87D /* number_5.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E91BEAE21B1B81E0092B87D /* number_5.png */; };
+		8E91BEC221B1B81F0092B87D /* face_win.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E91BEAF21B1B81E0092B87D /* face_win.png */; };
+		8E91BEC321B1B81F0092B87D /* tile_revealed.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E91BEB021B1B81E0092B87D /* tile_revealed.png */; };
+		8E91BEC421B1B81F0092B87D /* number_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E91BEB121B1B81E0092B87D /* number_3.png */; };
+		8E91BEC521B1B81F0092B87D /* tile_hidden.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E91BEB221B1B81E0092B87D /* tile_hidden.png */; };
+		8E91BEC621B1B81F0092B87D /* face_happy.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E91BEB321B1B81E0092B87D /* face_happy.png */; };
+		8E91BEC721B1B81F0092B87D /* number_8.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E91BEB421B1B81E0092B87D /* number_8.png */; };
+		8E91BEC821B1B81F0092B87D /* number_7.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E91BEB521B1B81E0092B87D /* number_7.png */; };
+		8E91BEC921B1B81F0092B87D /* face_lose.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E91BEB621B1B81E0092B87D /* face_lose.png */; };
+		8E91BECA21B1B81F0092B87D /* digits.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E91BEB721B1B81F0092B87D /* digits.png */; };
+		8E91BECB21B1B81F0092B87D /* test_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E91BEB821B1B81F0092B87D /* test_2.png */; };
+		8E91BECC21B1B81F0092B87D /* number_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E91BEB921B1B81F0092B87D /* number_1.png */; };
+		8E91BECD21B1B81F0092B87D /* number_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E91BEBA21B1B81F0092B87D /* number_2.png */; };
+		8E91BECE21B1B81F0092B87D /* number_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E91BEBB21B1B81F0092B87D /* number_4.png */; };
+		8E91BECF21B1B81F0092B87D /* flag.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E91BEBC21B1B81F0092B87D /* flag.png */; };
+		8E91BED021B1B81F0092B87D /* debug.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E91BEBD21B1B81F0092B87D /* debug.png */; };
+		8E91BED121B1B81F0092B87D /* number_6.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E91BEBE21B1B81F0092B87D /* number_6.png */; };
+		8E91BED221B1B81F0092B87D /* mine.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E91BEBF21B1B81F0092B87D /* mine.png */; };
+		8E91BED521B1BB320092B87D /* Tile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E91BED321B1BB320092B87D /* Tile.cpp */; };
+		8E91BEDB21B24E260092B87D /* testboard.brd in Resources */ = {isa = PBXBuildFile; fileRef = 8E91BED921B24E260092B87D /* testboard.brd */; };
+		8E91BEDC21B24E260092B87D /* testboard2.brd in Resources */ = {isa = PBXBuildFile; fileRef = 8E91BEDA21B24E260092B87D /* testboard2.brd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8E74ED5C21B1AC2D0029255E /* MineSweeper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MineSweeper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E74ED6021B1AC2D0029255E /* MineSweeper-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MineSweeper-Info.plist"; sourceTree = "<group>"; };
+		8E74ED6121B1AC2D0029255E /* ResourcePath.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ResourcePath.mm; sourceTree = "<group>"; };
+		8E74ED6321B1AC2D0029255E /* ResourcePath.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ResourcePath.hpp; sourceTree = "<group>"; };
+		8E74ED6421B1AC2D0029255E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8E74ED6721B1AC2D0029255E /* cute_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cute_image.jpg; sourceTree = "<group>"; };
+		8E74ED6921B1AC2D0029255E /* nice_music.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = nice_music.ogg; sourceTree = "<group>"; };
+		8E74ED6B21B1AC2D0029255E /* sansation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sansation.ttf; sourceTree = "<group>"; };
+		8E74ED6D21B1AC2E0029255E /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		8E91BEAD21B1B81E0092B87D /* test_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test_1.png; sourceTree = "<group>"; };
+		8E91BEAE21B1B81E0092B87D /* number_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = number_5.png; sourceTree = "<group>"; };
+		8E91BEAF21B1B81E0092B87D /* face_win.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = face_win.png; sourceTree = "<group>"; };
+		8E91BEB021B1B81E0092B87D /* tile_revealed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tile_revealed.png; sourceTree = "<group>"; };
+		8E91BEB121B1B81E0092B87D /* number_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = number_3.png; sourceTree = "<group>"; };
+		8E91BEB221B1B81E0092B87D /* tile_hidden.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tile_hidden.png; sourceTree = "<group>"; };
+		8E91BEB321B1B81E0092B87D /* face_happy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = face_happy.png; sourceTree = "<group>"; };
+		8E91BEB421B1B81E0092B87D /* number_8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = number_8.png; sourceTree = "<group>"; };
+		8E91BEB521B1B81E0092B87D /* number_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = number_7.png; sourceTree = "<group>"; };
+		8E91BEB621B1B81E0092B87D /* face_lose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = face_lose.png; sourceTree = "<group>"; };
+		8E91BEB721B1B81F0092B87D /* digits.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = digits.png; sourceTree = "<group>"; };
+		8E91BEB821B1B81F0092B87D /* test_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test_2.png; sourceTree = "<group>"; };
+		8E91BEB921B1B81F0092B87D /* number_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = number_1.png; sourceTree = "<group>"; };
+		8E91BEBA21B1B81F0092B87D /* number_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = number_2.png; sourceTree = "<group>"; };
+		8E91BEBB21B1B81F0092B87D /* number_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = number_4.png; sourceTree = "<group>"; };
+		8E91BEBC21B1B81F0092B87D /* flag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flag.png; sourceTree = "<group>"; };
+		8E91BEBD21B1B81F0092B87D /* debug.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = debug.png; sourceTree = "<group>"; };
+		8E91BEBE21B1B81F0092B87D /* number_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = number_6.png; sourceTree = "<group>"; };
+		8E91BEBF21B1B81F0092B87D /* mine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mine.png; sourceTree = "<group>"; };
+		8E91BED321B1BB320092B87D /* Tile.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Tile.cpp; sourceTree = "<group>"; };
+		8E91BED421B1BB320092B87D /* Tile.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Tile.hpp; sourceTree = "<group>"; };
+		8E91BED921B24E260092B87D /* testboard.brd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = testboard.brd; sourceTree = "<group>"; };
+		8E91BEDA21B24E260092B87D /* testboard2.brd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = testboard2.brd; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E74ED5821B1AC2D0029255E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E74ED5221B1AC2D0029255E = {
+			isa = PBXGroup;
+			children = (
+				8E74ED5E21B1AC2D0029255E /* MineSweeper */,
+				8E74ED5D21B1AC2D0029255E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E74ED5D21B1AC2D0029255E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E74ED5C21B1AC2D0029255E /* MineSweeper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E74ED5E21B1AC2D0029255E /* MineSweeper */ = {
+			isa = PBXGroup;
+			children = (
+				8E74ED6121B1AC2D0029255E /* ResourcePath.mm */,
+				8E74ED6321B1AC2D0029255E /* ResourcePath.hpp */,
+				8E74ED6421B1AC2D0029255E /* main.cpp */,
+				8E74ED6621B1AC2D0029255E /* Resources */,
+				8E74ED5F21B1AC2D0029255E /* Supporting Files */,
+				8E91BED321B1BB320092B87D /* Tile.cpp */,
+				8E91BED421B1BB320092B87D /* Tile.hpp */,
+			);
+			path = MineSweeper;
+			sourceTree = "<group>";
+		};
+		8E74ED5F21B1AC2D0029255E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E74ED6021B1AC2D0029255E /* MineSweeper-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8E74ED6621B1AC2D0029255E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8E91BED921B24E260092B87D /* testboard.brd */,
+				8E91BEDA21B24E260092B87D /* testboard2.brd */,
+				8E91BEBD21B1B81F0092B87D /* debug.png */,
+				8E91BEB721B1B81F0092B87D /* digits.png */,
+				8E91BEB321B1B81E0092B87D /* face_happy.png */,
+				8E91BEB621B1B81E0092B87D /* face_lose.png */,
+				8E91BEAF21B1B81E0092B87D /* face_win.png */,
+				8E91BEBC21B1B81F0092B87D /* flag.png */,
+				8E91BEBF21B1B81F0092B87D /* mine.png */,
+				8E91BEB921B1B81F0092B87D /* number_1.png */,
+				8E91BEBA21B1B81F0092B87D /* number_2.png */,
+				8E91BEB121B1B81E0092B87D /* number_3.png */,
+				8E91BEBB21B1B81F0092B87D /* number_4.png */,
+				8E91BEAE21B1B81E0092B87D /* number_5.png */,
+				8E91BEBE21B1B81F0092B87D /* number_6.png */,
+				8E91BEB521B1B81E0092B87D /* number_7.png */,
+				8E91BEB421B1B81E0092B87D /* number_8.png */,
+				8E91BEAD21B1B81E0092B87D /* test_1.png */,
+				8E91BEB821B1B81F0092B87D /* test_2.png */,
+				8E91BEB221B1B81E0092B87D /* tile_hidden.png */,
+				8E91BEB021B1B81E0092B87D /* tile_revealed.png */,
+				8E74ED6721B1AC2D0029255E /* cute_image.jpg */,
+				8E74ED6921B1AC2D0029255E /* nice_music.ogg */,
+				8E74ED6B21B1AC2D0029255E /* sansation.ttf */,
+				8E74ED6D21B1AC2E0029255E /* icon.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E74ED5B21B1AC2D0029255E /* MineSweeper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E74ED7121B1AC2E0029255E /* Build configuration list for PBXNativeTarget "MineSweeper" */;
+			buildPhases = (
+				8E74ED5721B1AC2D0029255E /* Sources */,
+				8E74ED5821B1AC2D0029255E /* Frameworks */,
+				8E74ED5921B1AC2D0029255E /* Resources */,
+				8E74ED5A21B1AC2D0029255E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MineSweeper;
+			productName = MineSweeper;
+			productReference = 8E74ED5C21B1AC2D0029255E /* MineSweeper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E74ED5321B1AC2D0029255E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Ricky Woodruff";
+				TargetAttributes = {
+					8E74ED5B21B1AC2D0029255E = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 8E74ED5621B1AC2D0029255E /* Build configuration list for PBXProject "MineSweeper" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8E74ED5221B1AC2D0029255E;
+			productRefGroup = 8E74ED5D21B1AC2D0029255E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E74ED5B21B1AC2D0029255E /* MineSweeper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E74ED5921B1AC2D0029255E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E91BEC621B1B81F0092B87D /* face_happy.png in Resources */,
+				8E91BECF21B1B81F0092B87D /* flag.png in Resources */,
+				8E74ED6E21B1AC2E0029255E /* icon.png in Resources */,
+				8E91BEC321B1B81F0092B87D /* tile_revealed.png in Resources */,
+				8E91BEC221B1B81F0092B87D /* face_win.png in Resources */,
+				8E91BEC521B1B81F0092B87D /* tile_hidden.png in Resources */,
+				8E74ED6C21B1AC2D0029255E /* sansation.ttf in Resources */,
+				8E91BECC21B1B81F0092B87D /* number_1.png in Resources */,
+				8E91BEDC21B24E260092B87D /* testboard2.brd in Resources */,
+				8E91BECD21B1B81F0092B87D /* number_2.png in Resources */,
+				8E74ED6A21B1AC2D0029255E /* nice_music.ogg in Resources */,
+				8E91BEC721B1B81F0092B87D /* number_8.png in Resources */,
+				8E91BEDB21B24E260092B87D /* testboard.brd in Resources */,
+				8E91BECA21B1B81F0092B87D /* digits.png in Resources */,
+				8E91BEC021B1B81F0092B87D /* test_1.png in Resources */,
+				8E91BEC121B1B81F0092B87D /* number_5.png in Resources */,
+				8E91BECE21B1B81F0092B87D /* number_4.png in Resources */,
+				8E91BEC821B1B81F0092B87D /* number_7.png in Resources */,
+				8E91BED021B1B81F0092B87D /* debug.png in Resources */,
+				8E91BEC421B1B81F0092B87D /* number_3.png in Resources */,
+				8E74ED6821B1AC2D0029255E /* cute_image.jpg in Resources */,
+				8E91BECB21B1B81F0092B87D /* test_2.png in Resources */,
+				8E91BEC921B1B81F0092B87D /* face_lose.png in Resources */,
+				8E91BED121B1B81F0092B87D /* number_6.png in Resources */,
+				8E91BED221B1B81F0092B87D /* mine.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8E74ED5A21B1AC2D0029255E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "# This shell script simply copies required SFML dylibs/frameworks into the application bundle frameworks folder.\n# If you're using static libraries (which is not recommended) you should remove this script from your project.\n\n# SETTINGS\nSFML_DEPENDENCIES_INSTALL_PREFIX=\"/Users/SFML/Desktop/packaging/tmp/install/Library/Frameworks\"\nCMAKE_INSTALL_FRAMEWORK_PREFIX=\"/Users/SFML/Desktop/packaging/tmp/install/Library/Frameworks\"\nCMAKE_INSTALL_LIB_PREFIX=\"/Users/SFML/Desktop/packaging/tmp/install/Library/Frameworks/lib\"\nFRAMEWORKS_FULL_PATH=\"$BUILT_PRODUCTS_DIR/$FRAMEWORKS_FOLDER_PATH/\"\n\n# Are we building a project that uses frameworks or dylibs?\ncase \"$SFML_BINARY_TYPE\" in\n    DYLIBS)\n        frameworks=\"false\"\n        ;;\n    *)\n        frameworks=\"true\"\n        ;;\nesac\n\n# Echoes to stderr\nerror () # $* message to display\n{\n    echo $* 1>&2\n    exit 2\n}\n\nassert () # $1 is a boolean, $2...N is an error message\n{\n    if [ $# -lt 2 ]\n    then\n        error \"Internal error in assert: not enough args\"\n    fi\n\n    if [ $1 -ne 0 ]\n    then\n        shift\n        error \"$*\"\n    fi\n}\n\nforce_remove () # $@ is some paths\n{\n    test $# -ge 1\n    assert $? \"force_remove() requires at least one parameter\"\n    rm -fr $@\n    assert $? \"couldn't remove $@\"\n}\n\ncopy () # $1 is a source, $2 is a destination\n{\n    test $# -eq 2\n    assert $? \"copy() requires two parameters\"\n    ditto \"$1\" \"$2\"\n    assert $? \"couldn't copy $1 to $2\"\n}\n\nrequire () # $1 is a SFML module like 'system' or 'audio'\n{\n    dest=\"$BUILT_PRODUCTS_DIR/$FRAMEWORKS_FOLDER_PATH/\"\n\n    if [ -z \"$1\" ]\n    then\n        error \"require() requires one parameter!\"\n    else\n        # clean potentially old stuff\n        force_remove \"$dest/libsfml-$1\"*\n        force_remove \"$dest/sfml-$1.framework\"\n\n        # copy SFML libraries\n        if [ \"$frameworks\" = \"true\" ]\n        then\n            source=\"$CMAKE_INSTALL_FRAMEWORK_PREFIX/sfml-$1.framework\"\n            target=\"sfml-$1.framework\"\n        elif [ \"$SFML_LINK_DYLIBS_SUFFIX\" = \"-d\" ]\n        then\n            source=\"$CMAKE_INSTALL_LIB_PREFIX/libsfml-$1-d.dylib\"\n            target=\"`readlink $source`\"\n        else\n            source=\"$CMAKE_INSTALL_LIB_PREFIX/libsfml-$1.dylib\"\n            target=\"`readlink $source`\"\n        fi\n\n        copy \"$source\" \"$dest/$target\"\n\n        # copy extra dependencies\n        if [ \"$1\" = \"audio\" ]\n        then\n            # copy \"FLAC\" \"ogg\" \"vorbis\" \"vorbisenc\" \"vorbisfile\" \"OpenAL\" frameworks too\n            for f in \"FLAC\" \"ogg\" \"vorbis\" \"vorbisenc\" \"vorbisfile\" \"OpenAL\"\n            do\n                copy \"$SFML_DEPENDENCIES_INSTALL_PREFIX/$f.framework\" \"$dest/$f.framework\"\n            done\n        elif [ \"$1\" = \"graphics\" ]\n        then\n            copy \"$SFML_DEPENDENCIES_INSTALL_PREFIX/freetype.framework\" \"$dest/freetype.framework\"\n        fi\n    fi\n}\n\nif [ -n \"$SFML_SYSTEM\" ]\nthen\n    require \"system\"\nfi\n\nif [ -n \"$SFML_AUDIO\" ]\nthen\n    require \"audio\"\nfi\n\nif [ -n \"$SFML_NETWORK\" ]\nthen\n    require \"network\"\nfi\n\nif [ -n \"$SFML_WINDOW\" ]\nthen\n    require \"window\"\nfi\n\nif [ -n \"$SFML_GRAPHICS\" ]\nthen\n    require \"graphics\"\nfi\n\n                \n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E74ED5721B1AC2D0029255E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E91BED521B1BB320092B87D /* Tile.cpp in Sources */,
+				8E74ED6521B1AC2D0029255E /* main.cpp in Sources */,
+				8E74ED6221B1AC2D0029255E /* ResourcePath.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8E74ED6F21B1AC2E0029255E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++11";
+				CLANG_CXX_LIBRARY = "libc++";
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks/,
+					"$(inherited)",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"$(SFML_NETWORK)",
+				);
+				SFML_AUDIO = "$(SFML_LINK_PREFIX) sfml-audio$(SFML_LINK_SUFFIX)";
+				SFML_BINARY_TYPE = FRAMEWORKS;
+				SFML_GRAPHICS = "$(SFML_LINK_PREFIX) sfml-graphics$(SFML_LINK_SUFFIX)";
+				SFML_LINK_DYLIBS_PREFIX = "-l";
+				SFML_LINK_DYLIBS_SUFFIX = "";
+				SFML_LINK_FRAMEWORKS_PREFIX = "-framework";
+				SFML_LINK_FRAMEWORKS_SUFFIX = "";
+				SFML_LINK_PREFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_PREFIX)";
+				SFML_LINK_SUFFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_SUFFIX)";
+				SFML_NETWORK = "$(SFML_LINK_PREFIX) sfml-network$(SFML_LINK_SUFFIX)";
+				SFML_SYSTEM = "$(SFML_LINK_PREFIX) sfml-system$(SFML_LINK_SUFFIX)";
+				SFML_WINDOW = "$(SFML_LINK_PREFIX) sfml-window$(SFML_LINK_SUFFIX)";
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Debug;
+		};
+		8E74ED7021B1AC2E0029255E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++11";
+				CLANG_CXX_LIBRARY = "libc++";
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks/,
+					"$(inherited)",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"$(SFML_NETWORK)",
+				);
+				SFML_AUDIO = "$(SFML_LINK_PREFIX) sfml-audio$(SFML_LINK_SUFFIX)";
+				SFML_BINARY_TYPE = FRAMEWORKS;
+				SFML_GRAPHICS = "$(SFML_LINK_PREFIX) sfml-graphics$(SFML_LINK_SUFFIX)";
+				SFML_LINK_DYLIBS_PREFIX = "-l";
+				SFML_LINK_DYLIBS_SUFFIX = "";
+				SFML_LINK_FRAMEWORKS_PREFIX = "-framework";
+				SFML_LINK_FRAMEWORKS_SUFFIX = "";
+				SFML_LINK_PREFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_PREFIX)";
+				SFML_LINK_SUFFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_SUFFIX)";
+				SFML_NETWORK = "$(SFML_LINK_PREFIX) sfml-network$(SFML_LINK_SUFFIX)";
+				SFML_SYSTEM = "$(SFML_LINK_PREFIX) sfml-system$(SFML_LINK_SUFFIX)";
+				SFML_WINDOW = "$(SFML_LINK_PREFIX) sfml-window$(SFML_LINK_SUFFIX)";
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Release;
+		};
+		8E74ED7221B1AC2E0029255E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZWBR9AMUCC;
+				INFOPLIST_FILE = "MineSweeper/MineSweeper-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		8E74ED7321B1AC2E0029255E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZWBR9AMUCC;
+				INFOPLIST_FILE = "MineSweeper/MineSweeper-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E74ED5621B1AC2D0029255E /* Build configuration list for PBXProject "MineSweeper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E74ED6F21B1AC2E0029255E /* Debug */,
+				8E74ED7021B1AC2E0029255E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E74ED7121B1AC2E0029255E /* Build configuration list for PBXNativeTarget "MineSweeper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E74ED7221B1AC2E0029255E /* Debug */,
+				8E74ED7321B1AC2E0029255E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E74ED5321B1AC2D0029255E /* Project object */;
+}
