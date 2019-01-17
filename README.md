@@ -1,1 +1,1 @@
-Minesweeper minigame coded in C++ using the SFML Library
+Minesweeper minigame utilizing the Simple and Fast Multimedia Library (SFML)
